@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import About from '../pages/About';
 
-describe('2. Teste o componente <About.js />', () => {
+describe('2 Teste o componente <About.js />', () => {
   test('2.1 A página contém as informações sobre a Pokédex', () => {
     renderWithRouter(<About />);
     const pokedex = screen.getByRole('heading', { name: /About Pokédex/i,

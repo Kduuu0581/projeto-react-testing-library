@@ -4,7 +4,7 @@ import { act } from 'react-dom/test-utils';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
-describe('1-Teste o component <App.js />', () => {
+describe('1 Teste o component <App.js />', () => {
   test('1.1 A aplicação contém um conjunto fixo de links de navegação', () => {
     renderWithRouter(<App />);
     const home = screen.getByRole('link', { name: /home/i });
